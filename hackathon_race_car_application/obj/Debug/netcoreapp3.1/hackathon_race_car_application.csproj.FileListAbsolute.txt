@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.exe
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.deps.json
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.runtimeconfig.json
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.runtimeconfig.dev.json
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.dll
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\bin\Debug\netcoreapp3.1\hackathon_race_car_application.pdb
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.Form1.resources
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.csproj.GenerateResource.cache
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.AssemblyInfo.cs
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.dll
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.pdb
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.genruntimeconfig.cache

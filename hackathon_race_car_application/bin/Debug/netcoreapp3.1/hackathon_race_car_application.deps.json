@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "hackathon_race_car_application/1.0.0": {
+        "runtime": {
+          "hackathon_race_car_application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hackathon_race_car_application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
