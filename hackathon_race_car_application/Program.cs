@@ -17,7 +17,7 @@ namespace hackathon_race_car_application
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new HomePage());
         }
     }
 }

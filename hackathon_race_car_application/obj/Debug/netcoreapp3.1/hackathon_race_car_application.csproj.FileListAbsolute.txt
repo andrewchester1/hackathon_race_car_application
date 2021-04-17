@@ -13,3 +13,5 @@ C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_ap
 C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.dll
 C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.pdb
 C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.genruntimeconfig.cache
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.Properties.Resources.resources
+C:\Users\andre\source\repos\hackathon_race_car_application\hackathon_race_car_application\obj\Debug\netcoreapp3.1\hackathon_race_car_application.HomePage.resources
