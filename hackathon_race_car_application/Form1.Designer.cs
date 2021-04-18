@@ -50,7 +50,7 @@ namespace hackathon_race_car_application
             this.lives = new System.Windows.Forms.Label();
             this.life = new System.Windows.Forms.PictureBox();
             this.over = new System.Windows.Forms.Label();
-            this.pause = new System.Windows.Forms.Button();
+            this.shield = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,6 +66,7 @@ namespace hackathon_race_car_application
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.life)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shield)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -141,6 +142,7 @@ namespace hackathon_race_car_application
             // 
             // enemy1
             // 
+            this.enemy1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("enemy1.BackgroundImage")));
             this.enemy1.Image = ((System.Drawing.Image)(resources.GetObject("enemy1.Image")));
             this.enemy1.Location = new System.Drawing.Point(12, 79);
             this.enemy1.Name = "enemy1";
@@ -248,23 +250,24 @@ namespace hackathon_race_car_application
             this.over.TabIndex = 18;
             this.over.Text = "Game Over";
             // 
-            // pause
+            // shield
             // 
-            this.pause.Location = new System.Drawing.Point(264, 0);
-            this.pause.Name = "pause";
-            this.pause.Size = new System.Drawing.Size(112, 34);
-            this.pause.TabIndex = 19;
-            this.pause.Text = "Pause";
-            this.pause.UseVisualStyleBackColor = true;
-            this.pause.Click += new System.EventHandler(this.pause_Click);
+            this.shield.Image = ((System.Drawing.Image)(resources.GetObject("shield.Image")));
+            this.shield.Location = new System.Drawing.Point(141, 3);
+            this.shield.Name = "shield";
+            this.shield.Size = new System.Drawing.Size(32, 31);
+            this.shield.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.shield.TabIndex = 20;
+            this.shield.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(378, 444);
-            this.Controls.Add(this.pause);
+            this.Controls.Add(this.shield);
             this.Controls.Add(this.over);
             this.Controls.Add(this.life);
             this.Controls.Add(this.lives);
@@ -283,9 +286,10 @@ namespace hackathon_race_car_application
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown_1);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -301,6 +305,7 @@ namespace hackathon_race_car_application
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.life)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shield)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,7 +332,7 @@ namespace hackathon_race_car_application
         private System.Windows.Forms.Label lives;
         private System.Windows.Forms.PictureBox life;
         private System.Windows.Forms.Label over;
-        private System.Windows.Forms.Button pause;
+        private System.Windows.Forms.PictureBox shield;
     }
 }
 
